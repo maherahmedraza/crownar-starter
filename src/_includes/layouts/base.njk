@@ -11,34 +11,16 @@
   <body>
     <header>
       <div class="container">
-        <a href="/" class="home" title="Home"><img src="/images/crownAR.png" class="logomark" alt="Netlify"></a>
-        {% block header %}
-          {# Replace this if anything is passed in to the header block #}
-          {% if header %}
-          <h1>{{ header.heading }}</h1>
-          <p>
-            {{ header.subtitle }}
-          </p>
-          {% else %}
-          <h1>
-            🎉 {% if details.twitter %}{{ details.twitter }}{% else %}I{% endif %} deployed this to netlify
-          </h1>
-          <p>
-            And so could you
-          </p>
-          <p>
-            <a href="/#get-yours" class="btn btn-white">Find out how</a>
-          </p>
-          {% endif %}
-        {% endblock %}
+        <a href="/" class="home" title="Home">
+          <img src="/images/crownAR.png" class="logomark" alt="Revolutioning Reality"> </img>
+        </a>
+        <h1>
+          🎉 We are an Augmented Reality Company
+        </h1>
+        <h2>
+          Launching Soon!
+        </h2>
       </div>
     </header>
-    <div class="main">
-      <div class="container">
-        {% block content %}
-        {{ content | safe }}
-        {% endblock %}
-      </div>
-    </div>
   </body>
 </html>
