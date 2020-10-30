@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3d745f6-5810-48fd-8448-1bb92d4ee9cc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.vs/crownar-starter/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/crownar-starter/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    <list default="true" id="d3d745f6-5810-48fd-8448-1bb92d4ee9cc" name="Default Changelist" comment="Update plugins">
+      <change afterPath="$PROJECT_DIR$/.yarnclean" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_includes/layouts/base.njk" beforeDir="false" afterPath="$PROJECT_DIR$/src/_includes/layouts/base.njk" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +60,31 @@
       <option name="presentableId" value="Default" />
       <updated>1599678121248</updated>
       <workItem from="1599678122927" duration="291000" />
-      <workItem from="1603967373082" duration="303000" />
+      <workItem from="1603967373082" duration="2410000" />
+      <workItem from="1604083331812" duration="792000" />
     </task>
+    <task id="LOCAL-00001" summary="Update plugins">
+      <created>1603967691325</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603967691325</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update plugins">
+      <created>1603967890429</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603967890430</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update plugins">
+      <created>1603969630334</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603969630334</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -67,37 +92,42 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Update plugins" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update plugins" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="374" y="0" key="CommitChangelistDialog2" timestamp="1603967690680">
+    <state x="512" y="236" key="#Notifications" timestamp="1603968498163">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="374" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1603967690680" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1603967622862">
+    <state x="512" y="236" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1603968498163" />
+    <state x="374" y="0" key="CommitChangelistDialog2" timestamp="1603969705566">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603967622862" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1603967622862">
+    <state x="374" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1603969705566" />
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1603969805324">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603967622862" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1603967622862">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603969805324" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1603969805314">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603967622862" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1603967622862">
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603969805314" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1603969805314">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603967622862" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1599678155485">
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603969805314" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1603969805324">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599678155485" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603967702762">
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603969805324" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1603969611324">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603967702762" />
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603969611324" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603969634272">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603969634272" />
     <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603967579372">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
